@@ -1,0 +1,20 @@
+{
+  "name": "fojs-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "fo": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs-extra": "^0.30.0",
+    "handlebars": "^4.0.5",
+    "lodash": "^4.13.1"
+  }
+}
