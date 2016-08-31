@@ -1,20 +1,13 @@
 import React from 'react'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import { App } from './App'
+import { Home } from './views'
 
-//import { * } from './views'
-
-/*
 export default (
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <Route component={Private}>
-        <IndexRoute component={Home} />
-      </Route>
-      <Route component={Public}>
-        <Route path="login" component={Login} />
-      </Route>
+      <Route path="home" component={Home}/>
+      <Route path="*" component={NotFound} />
     </Route>
-    <Route path="*" component={NotFound} />
   </Router>
 )
-*/

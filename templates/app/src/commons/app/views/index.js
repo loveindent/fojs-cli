@@ -1,4 +1,4 @@
 export App from './App';
 export NotFound from './NotFound';
-export * from './Private';
+export Home from './Home';
 export * from './Public';
