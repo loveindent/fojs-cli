@@ -6,7 +6,7 @@ git clone this repository
 
 cd fojs-cli
 
-npm link -g
+npm link
 ```
 
 # Usage
