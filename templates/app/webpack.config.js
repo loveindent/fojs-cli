@@ -2,6 +2,7 @@ var config = require('config');
 var path = require('path');
 var webpack = require('webpack'); //eslint-disable-line no-unused-vars
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var WebpackNotifierPlugin = require('webpack-notifier')
 
 var webpackConfig = {
   cache: true,
@@ -24,6 +25,7 @@ var webpackConfig = {
     extensions: ['', '.js', '.jsx', '.css', '.styl']
   },
   plugins: [
+    new WebpackNotifierPlugin(),
     new ExtractTextPlugin('[name].css')
     // new webpack.optimize.UglifyJsPlugin({minimize: true})
   ],
