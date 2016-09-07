@@ -1,1 +1,1 @@
-export {{name}} from './{{path}}'
+export {{name}} from '{{path}}'
