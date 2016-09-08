@@ -20,7 +20,8 @@
     "joi": "^9.0.4",
     "lodash": "^4.13.1",
     "pluralize": "^3.0.0",
-    "rc": "^1.1.6"
+    "rc": "^1.1.6",
+    "fo-template-default": "git@github.com:loveindent/fo-template-default.git"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
