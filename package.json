@@ -17,10 +17,14 @@
     "commander": "^2.9.0",
     "fs-extra": "^0.30.0",
     "handlebars": "^4.0.5",
-    "lodash": "^4.13.1"
+    "joi": "^9.0.4",
+    "lodash": "^4.13.1",
+    "pluralize": "^3.0.0",
+    "rc": "^1.1.6"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
+    "eslint": "^3.4.0",
     "eslint-plugin-react": "^6.2.0"
   }
 }
